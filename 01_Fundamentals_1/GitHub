@@ -1,15 +1,30 @@
 Git and GitHub
 
+Summary
 
+Git is a version source control tool by which u can manage a projects source code history.
+GitHub is a cloud based platform built around the Git tool as an online service that stores 
+code pushed to it from computers running the Git tool.
 
+Git is focused on version control and code sharing
+GitHub is focused on centralized source code hosting.
 
+Git is open source licensed
+GitHub has free tiers and paid tiers
 
-[Give a short summary of the subject matter.]
+Git is primarily a command line tool
+GitHub is administered through the web.
 
-## Key terminology
+Key terminology
 
 -	Repository
+  The Repository or 'Repo'is like a directory (database) that stores all the files,
+  folder and content needed for your project. Repositories can be shared and copied.
+  
 -	Main / Master
+  Main: the primary branch of all repositories. All committed and accepted changes should 
+  be on the master branch.
+  
 -	Branch
 -	Commit
 -	Push / Pull
