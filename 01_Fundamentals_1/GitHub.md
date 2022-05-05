@@ -84,11 +84,11 @@ Some people speak to much or hold on too long on a subject, its a challenge to a
 
 
 Results
-![alt text](https://github.com/TechGrounds-Cloud8/cloud8-se0727/tree/main/00_includes/clone van peer.PNG)
-![alt text](https://github.com/TechGrounds-Cloud8/cloud8-se0727/tree/main/00_includes/clone van peer1.PNG)
-![alt text](https://github.com/TechGrounds-Cloud8/cloud8-se0727/tree/main/00_includes/clone van peer2.PNG)
-![alt text](https://github.com/TechGrounds-Cloud8/cloud8-se0727/tree/main/00_includes/permissions teammembers.PNG)
-![alt text](https://github.com/TechGrounds-Cloud8/cloud8-se0727/tree/main/00_includes/Repo SanjaiRepo aanmaken.PNG)
+![alt text](https://github.com/TechGrounds-Cloud8/cloud8-se0727/blob/main/00_includes/clone van peer.PNG)
+![alt text](https://github.com/TechGrounds-Cloud8/cloud8-se0727/blob/main/00_includes/clone van peer1.PNG)
+![alt text](https://github.com/TechGrounds-Cloud8/cloud8-se0727/blob/main/00_includes/clone van peer2.PNG)
+![alt text](https://github.com/TechGrounds-Cloud8/cloud8-se0727/blob/main/00_includes/permissions teammembers.PNG)
+![alt text](https://github.com/TechGrounds-Cloud8/cloud8-se0727/blob/main/00_includes/Repo SanjaiRepo aanmaken.PNG)
 
 
 
