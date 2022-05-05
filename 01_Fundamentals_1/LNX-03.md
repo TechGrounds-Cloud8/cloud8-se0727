@@ -50,3 +50,7 @@ Had found grep command but did not understand I had to look further into it. So 
 
 ### Results
 
+![alt text](https://github.com/TechGrounds-Cloud8/cloud8-se0727/blob/main/00_includes/Linux/linux%20opdr3%20output%20redirection%20and%20echo.PNG)
+![alt text](https://github.com/TechGrounds-Cloud8/cloud8-se0727/blob/main/00_includes/Linux/linux%20opdr3%20write%20content%20to%20terminal.PNG)
+![alt tesxt](https://github.com/TechGrounds-Cloud8/cloud8-se0727/blob/main/00_includes/Linux/linux%20opdr3%20redirect%20ouput%20of%20grep%20in%20a%20file.PNG)
+
