@@ -22,13 +22,15 @@ https://linuxize.com/post/how-to-use-nano-text-editor/
 Just have to look carefull, u have sometimes a shortcut and sometimes a longer way to reach the same goal.
 
 ### Results
-![alt text](../00_includes/Linux/linux%20opdr2%20%20files%20and%20dir.PNG)
 
 ![alt text](../00_includes/Linux/linux%20opdr2%20%20file%20mkn%20in%20dir.PNG)
 
 ![alt text](../00_includes/Linux/linux%20opdr2%20%20abso%20rel.PNG)
 
+![alt text](../00_includes/Linux/linux%20opdr2%20%20files%20and%20dir.PNG)
 
 
 
-[Describe here the result of the exercise. An image can speak more than a thousand words, include one when this wisdom applies.]
+
+
+
