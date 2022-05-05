@@ -55,6 +55,10 @@ https://linuxize.com/post/how-to-create-a-sudo-user-on-ubuntu/
 I was sometimes confused whether group was a file, and whether it did contain the groups.
 
 ### Results
-![alt text](..) 
+![alt text](C:\Users\TG\Documents\GitHub\cloud8-se0727\00_includes\Linux\linux opdr4 admin command.PNG) 
+![alt text](C:\Users\TG\Documents\GitHub\cloud8-se0727\00_includes\Linux\linux opdr4 admin group.PNG) 
+![alt text](C:\Users\TG\Documents\GitHub\cloud8-se0727\00_includes\Linux\linux opdr4 new user bestaat in admin group.PNG) 
+![alt text](C:\Users\TG\Documents\GitHub\cloud8-se0727\00_includes\Linux\linux opdr4 new user hft passwrd.PNG)
+![alt text](C:\Users\TG\Documents\GitHub\cloud8-se0727\00_includes\Linux\linux opdr4 sudo controle.PNG)
+![alt text](C:\Users\TG\Documents\GitHub\cloud8-se0727\00_includes\Linux\linux opdr4 sudo en controle.PNG)
 
-test
