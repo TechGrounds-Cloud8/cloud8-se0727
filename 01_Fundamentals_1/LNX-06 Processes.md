@@ -36,6 +36,9 @@ You can check the details of the reserved ports in the /etc/services file on Lin
 Procedure to find process by name on Linux: pidof ....command as follows to find PID for firefox process:
 pidof firefox
 
+After a discussion with Casper, I understand that telnet is installed, but it is not running.
+So that is why we do not have a PID of telnetd. There is no activity over the ports, no connection is made.
+
 
 ## Key terminology
 Telnet
