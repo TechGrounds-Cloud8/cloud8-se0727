@@ -1,6 +1,6 @@
 # NTW-01  OSI Stack
 
-OSI stands for Open System Interconnection Model.
+### OSI stands for Open System Interconnection Model.
 
 The OSI model was made for connecting open systems. These systems are created/designed to be open for communication with almost any other system.
 
@@ -48,25 +48,38 @@ Data Encapsulation and Data De-Encapsulation gives a good overview how and in wh
 
 Data Encapsulation happens when data is transmitted from the application layer to the physical layer of the OSI reference model.
 
+![alt text](../00_includes/NTW/Encapsulation%20OSI%20Model.PNG)
 
+Following the data stream when going from layer 7 to layer 1 of the OSI reference model is data encapsulation:
 
-Following the data stream on the figure above:
+* User input is converted to data for transmission on the network (At the upper layers)
+* Data is converted to segments, which allow hosts to reliably communicate (At the Transport Layer)
+* Segments are converted to packets or datagrams with a source and destination logical address (At the Network layer)
+* Packets or datagrams are converted to frames for transmission over an interface to the network (At the Data Link Layer)
+* Frames are converted to bits, and uses a synchronization and clocking function (At the Physical Layer)
+ 
+ Peer to Peer Communication
+ Ech layer of the OSI model at the source must communicate with its peer layer at the destination. During the protocols at each layer exchange packets of information called protocol data units (PDUs) between peer layers.
 
-Alphanumeric user input is converted to data for transmission on the network (At the upper layers)
+Bits are sent between physical layer peers.
 
-Data is converted to segments, which allow hosts to reliably communicate (At the Transport Layer)
+Frames are sent between data link layer peers.
 
-Segments are converted to packets or datagrams with a source and destination logical address (At the Network layer)
+Packets are sent between transport layer peers.
 
-Packets or datagrams are converted to frames for transmission over an interface to the network (At the Data Link Layer)
+Segments are sent between transport layer peers.
 
-Frames are converted to bits, and uses a synchronization and clocking function (At the Physical Layer)
+***
+***
+### IP & TCP
 
-Again, data encapsulation occurs when going from layer 7 to layer 1 of the OSI reference model.
+IP
+The Internet Protocol (IP): is the address system of the Internet and its main task is delivering packets of information from a source device to a target device. IP is the primary way in which network connections are made and is the basis of the Internet.
 
+TCP
+IP does not handle packet ordering or error checking. Such functionality requires another protocol:Transmission Control Protocol (TCP).
 
-
-
+The Internet Protocol makes sure the data arrives at their destination address. The TCP protocol puts the pieces of data together in the right order, asks for missing pieces to be resent, and lets the sender know the data has been received. TCP maintains the connection with the sender from before the first data piece is sent to after the final data is sent.
 
 
 
@@ -77,8 +90,14 @@ Again, data encapsulation occurs when going from layer 7 to layer 1 of the OSI r
 ## Key terminology
 
 OSI Model
-TCP/IP Model
+
 Data Encapsulation
+
+TCP/IP Model
+
+3 way handshake
+
+
 
 
 
