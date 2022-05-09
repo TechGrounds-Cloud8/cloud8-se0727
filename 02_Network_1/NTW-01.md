@@ -85,12 +85,38 @@ The Internet Protocol makes sure the data arrives at their destination address. 
 
 ![alt text](../00_includes/NTW/3%20way%20handshake.PNG)
 
-#### The TCP/IP Model
+#### The TCP/IP Model (4 Layers)
 
 To simplify protocol design and implementation, communication stacks are segregated into layers that can be solved independently. Each layer is assigned a separate protocol.
 
-![alt text](..)
+![alt text](../00_includes/NTW/TCP%20IP%20Model.PNG)
 
+The TCP/IP model does not exactly match the OSI model.
+
+Regarding how to describe TCP/IP with a layered model it is generally agreed that there are fewer levels than the seven layers of the OSI model. The layers (4) of the TCP/IP model are defined as follows:
+
+Application Layer
+
+In TCP/IP the Application Layer also includes the OSI Presentation Layer and Session Layer. In this document an application is any process that occurs above the Transport Layer. This includes all of the processes that involve user interaction. The application determines the presentation of the data and controls the session. In TCP/IP the terms socket and port are used to describe the path over which applications communicate. There are numerous application level protocols in TCP/IP:
+* Simple Mail Transfer Protocol (SMTP)
+* Post Office Protocol (POP) used for e-mail
+* Hyper Text Transfer Protocol (https) used for the World-Wide-Web
+* File Transfer Protocol (FTP). 
+Most application level protocols are associated with one or more port numbers.
+
+Transport Layer
+
+In TCP/IP there are two Transport Layer protocols. The Transmission Control Protocol (TCP) guarantees that information is received as it was sent. The User Datagram Protocol (UDP) performs no end-to-end reliability checks, so no handshake but directly establishing a connection.
+
+Internet Layer
+
+In the OSI Reference Model the Network Layer isolates the upper layer protocols from the details of the underlying network and manages the connections across the network. The Internet Protocol (IP) is normally described as the TCP/IP Network Layer. Because of the Inter-Networking emphasis of TCP/IP this is commonly referred to as the Internet Layer. All upper and lower layer communications travel through IP as they are passed through the TCP/IP protocol stack.
+
+Network Access Layer
+
+In TCP/IP the Data Link Layer and Physical Layer are normally grouped together. TCP/IP makes use of existing Data Link and Physical Layer standards rather than defining its own. IP utilizes existing data link protocols such as Ethernet, Token Ring, FDDI, HSSI, and ATM. The Physical Layer typically defines the characteristics of the hardware that carries the communication signal. This describes attributes such as pin configurations, voltage levels, and cable requirements.
+
+![alt text](../00_includes/NTW/Encapsulation%20TCP%20IP%20Model.PNG)
 
 
 ***
@@ -104,13 +130,12 @@ TCP/IP Model
 
 3 way handshake
 
-
-
-
-
-
 ***
 ## Exercise
+
+Study:
+* The OSI model and its uses.
+* The TCP/IP model and its uses.
 
 
 ***
@@ -131,9 +156,10 @@ https://www.guru99.com/tcp-ip-model.html
 https://www.certificationkits.com/cisco-certification/cisco-ccna-640-802-exam-certification-guide/cisco-ccna-the-osi-model/
 
 
-
 ### Overcome challenges
-[Give a short description of your challanges you encountered, and how you solved them.]
+
+My biggest challenge is I learn each day new subjects and need to understand it.
+Also making good notes of it.
 
 ### Results
-[Describe here the result of the exercise. An image can speak more than a thousand words, include one when this wisdom applies.]
+This template with notes.
