@@ -76,13 +76,20 @@ Segments are sent between transport layer peers.
 IP
 The Internet Protocol (IP): is the address system of the Internet and its main task is delivering packets of information from a source device to a target device. IP is the primary way in which network connections are made and is the basis of the Internet.
 
+The first version of IP used on the Internet today is Internet Protocol Version 4 (IPv4). Because of not having enough total number of possible addresses in IPv4, a newer protocol was developed. The newer protocol is called IPv6 and it makes many more addresses available and is slowly getting more used.
+
 TCP
 IP does not handle packet ordering or error checking. Such functionality requires another protocol:Transmission Control Protocol (TCP).
 
 The Internet Protocol makes sure the data arrives at their destination address. The TCP protocol puts the pieces of data together in the right order, asks for missing pieces to be resent, and lets the sender know the data has been received. TCP maintains the connection with the sender from before the first data piece is sent to after the final data is sent.
 
+![alt text](../00_includes/NTW/3%20way%20handshake.PNG)
 
+#### The TCP/IP Model
 
+To simplify protocol design and implementation, communication stacks are segregated into layers that can be solved independently. Each layer is assigned a separate protocol.
+
+![alt text](..)
 
 
 
@@ -125,7 +132,7 @@ https://www.certificationkits.com/cisco-certification/cisco-ccna-640-802-exam-ce
 
 
 
-### Overcome challanges
+### Overcome challenges
 [Give a short description of your challanges you encountered, and how you solved them.]
 
 ### Results
