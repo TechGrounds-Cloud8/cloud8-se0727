@@ -1,18 +1,21 @@
 # NTW-01  OSI Stack
 
 
-![This is an image](https://www.guru99.com/layers-of-osi-model.html#13)
+![This is an image](
+    https://www.guru99.com/layers-of-osi-model.html#13)
 
 
 
 
-[Give a short summary of the subject matter.]
-
+***
 ## Key terminology
 [Write a list of key terminology with a short description. To prevent duplication you can reference to previous excersizes.]
 
+***
 ## Exercise
 
+
+***
 ### Sources
 
 https://www.geeksforgeeks.org/layers-of-osi-model/
