@@ -103,8 +103,59 @@ Other protocols corresponding to a layer of the OSI model
 ## Exercise
 
 * Identify several other protocols and their associated OSI layer. Name at least one for each layer.
+
+
 * Figure out who determines what protocols we use and what is needed to introduce your own protocol.
+
+Network protocols are typically created according to industry standard by various networking or information technology organizations.
+
+The following groups have defined and published different network protocols:
+
+* The Institute of Electrical and Electronics Engineers (IEEE)
+* The Internet Engineering Task Force (IETF)
+* The International Organization for Standardization (ISO)
+* The International Telecommunications Union (ITU)
+* The World Wide Web Consortium (W3C)
+
+While network protocol models generally work in similar ways, each protocol is unique and operates in the specific way detailed by the organization that created it.
+
+Who Uses Network Protocols?
+Network protocols aren’t only relevant to certified network specialists or IT professionals. Billions of people use network protocols daily, whether they know it or not.
+
+Every time you use the internet, you leverage network protocols. Though you may not know how network protocols work or how frequently you encounter them, they are necessary for using the internet or digital communications in any capacity.
+
+List of Network Protocols
+There are thousands of different network protocols, but they all perform one of three primary actions:
+
+Communication
+Network management
+Security
+Each type is necessary to use network devices swiftly and safely, and they work together to facilitate that usage.
+
+***
+
+***
+New emerging network protocols
+If what we have is working so well, why do we need new protocols? Just examine the layers of functionality that are required to implement security, NAT, QoS, and content management. It gets complicated very quickly as the layers interact with one another. Some of the proposed protocols potentially result in network simplification. IPv6 was supposed to improve security, but further examination revealed some significant security holes, such as neighbor discovery and automatic tunneling.
+
+The new protocols are:
+
+Named Data Networking (NDN)
+Recursive InterNetwork Architecture (RINA)
+Enhanced IP
+Easy IP (EZIP)
+
+***
+
 * Look into wireshark and install this program. Try and capture a bit of your own network data. Search for a protocol you know and try to understand how it functions.
+
+![alt text](../00_includes/NTW/OwnDataWireSh.PNG)
+
+My own laptop is 192.168.178.157 and UDP protocol is used to capture a lot of zoom packets on port 8801.
+
+![alt text](../00_includes/NTW/OwnDataWireShTCP.PNG)
+
+
 
 
 ### Sources
@@ -120,6 +171,14 @@ https://www.open.edu/openlearncreate/mod/oucontent/view.php?id=129631&section=7
 https://www.pearsonitcertification.com/articles/article.aspx?p=2873377
 
 http://www.iana.org/
+
+https://www.comptia.org/content/guides/what-is-a-network-protocol#communication
+
+https://cisomag.eccouncil.org/what-are-network-protocols-and-how-are-they-used/
+
+https://www.nojitter.com/examining-emerging-network-protocols
+
+https://www.wireshark.org/#download
 
 
 
