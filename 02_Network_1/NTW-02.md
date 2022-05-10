@@ -1,6 +1,7 @@
 # Network Devices
 
 ### Network Devices
+***
 * Host
 
 Host are any devices which send or either receives traffic/data over a network.
@@ -35,7 +36,8 @@ Bridges have only two ports.
 Bridges learn which hosts are on each side. They can sent data only on one side, or from one side to another on one or multiple computers.
 
 * Switch
-Switches facilitate communication within a Network (a group of hosts which all require the same connectivity)
+
+Switches facilitate communication **within** a Network (a group of hosts which all require the same connectivity)
 Hosts on a Network share the same IP address space (
     i.e. only a few digits differ to give them all an unique IP address)
 
@@ -43,9 +45,15 @@ Hosts on a Network share the same IP address space (
 
 * Router
 
+Routers facilitates communication **between** networks and/or internet. Routers have an access point to networks and internet and therefore are a great place to place /control point for security, filtering, redirecting etc.
+
+![alt text](../00_includes/NTW/Router.PNG)
 
 
 
+
+
+***
 
 ### The OSI Model and Network Devices
 
@@ -56,13 +64,16 @@ The goal is too allow two or more hosts to share data with one another.
 
 
 
-[Give a short summary of the subject matter.]
-
+***
 ## Key terminology
 [Write a list of key terminology with a short description. To prevent duplication you can reference to previous excersizes.]
 
+
+***
 ## Exercise
 
+
+***
 ### Sources
 
 https://www.geeksforgeeks.org/network-devices-hub-repeater-bridge-switch-router-gateways/
@@ -70,8 +81,10 @@ https://www.geeksforgeeks.org/network-devices-hub-repeater-bridge-switch-router-
 
 [List your sources you used for solving the exercise]
 
-### Overcome challanges
+***
+### Overcome challenges
 [Give a short description of your challanges you encountered, and how you solved them.]
 
+***
 ### Results
 [Describe here the result of the exercise. An image can speak more than a thousand words, include one when this wisdom applies.]
