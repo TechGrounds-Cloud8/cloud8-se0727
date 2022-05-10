@@ -76,6 +76,30 @@ see above
 ***
 ## Exercise
 
+Bestudeer:
+ * Netwerkapparaten
+
+ * Het OSI model in relatie tot deze netwerkapparaten
+
+ Opdracht:
+* Benoem en beschrijf de functies van veel voorkomend netwerkapparatuur
+* De meeste routers hebben een overzicht van alle verbonden apparaten, vind deze lijst. Welke andere informatie heeft de router over aangesloten apparatuur?
+
+![alt text](../00_includes/NTW/VerbondenApp.PNG)
+
+Overige info wat getoond word:
+* Apparaatnaam	
+* MAC-adres	
+* IP-adres	
+* Snelheid (Mb/s)	
+* Verbonden via
+
+
+* Waar staat je DHCP server op jouw netwerk? Wat zijn de configuraties hiervan?
+
+![alt text](../00_includes/NTW/DHCP.PNG)
+
+
 
 ***
 ### Sources
