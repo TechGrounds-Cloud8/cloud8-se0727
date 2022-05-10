@@ -11,6 +11,10 @@ Also Internet of Things devices (IoT) like TV, Speakers, Smart Watch, Lights, Re
 
 So depending on the communication it acts as a Client or a Server.
 
+        * IP Address
+        An IP Address is the identity of a host. Everything send on the Internet needs a SRC and a DST IP address. So in a request u have to SRC and DST IP address and in the response also. These are put in the header in the Transport Layer (OSI) / Network Layer (TCP/IP)
+        
+
        * Ip Address
        An IP address is the identity of a host. Everything send on the Internet needs a SRC and a DST IP address. So in a request u have a SRC and DST IP address and in the response also, this is put in the header in the Transport Layer (OSI) / Network Layer (TCP/IP)
 
