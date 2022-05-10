@@ -26,17 +26,23 @@ If u have multiple computers which need to be connected each to each other, u us
 
 There is only one big problem with a Hub, everything send between two computers will also be send to the othe other devices connected on that Hub/Network. To solve that problem we have bridges.
 
-![alt text](../00_includes/NTW/``)
+![alt text](../00_includes/NTW/Bridge.PNG)
 
 * Bridge
+
 Bridges are used between Hub connected hosts.
 Bridges have only two ports.
 Bridges learn which hosts are on each side. They can sent data only on one side, or from one side to another on one or multiple computers.
 
-
-
 * Switch
+Switches facilitate communication within a Network (a group of hosts which all require the same connectivity)
+Hosts on a Network share the same IP address space (
+    i.e. only a few digits differ to give them all an unique IP address)
+
+![alt text](../00_includes/NTW/SwitchNTW.PNG)
+
 * Router
+
 
 
 
