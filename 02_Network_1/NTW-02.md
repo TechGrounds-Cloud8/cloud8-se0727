@@ -14,7 +14,7 @@ So depending on the communication it acts as a Client or a Server.
 * IP Address 
 An IP Address is the identity of a host. Everything send on the Internet needs a SRC and a DST IP address. So in a request u have to SRC and DST IP address and in the response also. These are put in the header in the Transport Layer (OSI) / Network Layer (TCP/IP)
 
-       * A Network is what transports data traffic between hosts. The Internet is a network of networks.
+* A Network is what transports data traffic between hosts. The Internet is a network of networks.
 
 * Repeater
 A repeater regenerates/enhances the signal so u can communicate over larger distances. (wifi repeater)
