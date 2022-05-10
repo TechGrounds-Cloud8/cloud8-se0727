@@ -56,18 +56,18 @@ Following the data stream when going from layer 7 to layer 1 of the OSI referenc
 * Data is converted to segments, which allow hosts to reliably communicate (At the Transport Layer)
 * Segments are converted to packets or datagrams with a source and destination logical address (At the Network layer)
 * Packets or datagrams are converted to frames for transmission over an interface to the network (At the Data Link Layer)
-* Frames are converted to bits, and uses a synchronization and clocking function (At the Physical Layer)
+* Frames are converted to bits. (At the Physical Layer)
  
  Peer to Peer Communication
- Ech layer of the OSI model at the source must communicate with its peer layer at the destination. During the protocols at each layer exchange packets of information called protocol data units (PDUs) between peer layers.
+ Each layer of the OSI model at the source must communicate with its peer layer at the destination. During the protocols at each layer exchange packets of information called protocol data units (PDUs) between peer layers.
 
-Bits are sent between physical layer peers.
+Bits are sent between physical layer peers. Transporting Bits.
 
-Frames are sent between data link layer peers.
+Frames are sent between data link layer peers. MAC adress header is added
 
-Packets are sent between transport layer peers.
+Packets are sent between network layer peers. IP adress header ia added
 
-Segments are sent between transport layer peers.
+Segments are sent between transport layer peers. TCP/UDP header is added to distinguish data streams (ports)
 
 ***
 ***
@@ -129,6 +129,8 @@ Data Encapsulation
 TCP/IP Model
 
 3 way handshake
+
+ARP Address Resolution Protocol
 
 ***
 ## Exercise
