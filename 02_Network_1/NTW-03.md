@@ -47,6 +47,48 @@ The main difference is that the User datagram protocol is connectionless. That i
     * Dynamic or private ports (49152 to 65535). 
     These are assigned dynamically to client applications when the client initiates a connection to a service.
 
+Some popular application layer protocols use by default predefined and well-known port numbers. For example, HTTP uses port 80, HTTPS uses port 443, SMTP port 25, Telnet port 23, and FTP uses two ports: 20 for data transmission and 21 for transmission control. The list of such default port numbers is managed by the Internet Assigned Numbers Authority organization.
+
+A brief description of these are as follows:
+
+
+Port 20 and 21: FTP data and FTP control, respectively
+
+
+Port 22: Remote login protocol secure shell (SSH)
+
+
+Port 23: Telnet, used for accessing system remotely but is not very secure
+
+
+Port 25: Simple Mail Transfer Protocol (SMTP) used by e-mail servers
+
+
+Port 53: DNS protocol
+
+
+Port 80: Used for accessing Web servers
+
+
+Port 110: The POP service or Post Office Protocol used by local e-mail clients to retrieve mail from servers
+
+
+Port 123: NTP to synchronize time with remote time servers
+
+
+Port 143: E-mail clients can use the Internet Message Access Protocol (IMAP) to retrieve mail from servers
+
+
+Port 443: This is the Hypertext Transfer Protocol (HTTP) Secure that combines the HTTP with a cryptographic protocol, which can be used for payment transactions and other secure transmission of data from Web pages.
+
+
+Port 631: The Internet Printing Protocol (IPP) used to print to printers located remotely on the network
+
+
+Port 3306: The standard port for MySQL
+
+These ports are defined in the /etc/services file on Linux systems.
+
 
 
 ***
@@ -69,9 +111,16 @@ Other protocols corresponding to a layer of the OSI model
 
 all sources mentioned in NTW-01 en NTW-02
 
+http://www.crypto-it.net/eng/theory/tcp-ip-protocols.html
+
 https://www.geeksforgeeks.org/layers-of-osi-model/?ref=lbp
 
 https://www.open.edu/openlearncreate/mod/oucontent/view.php?id=129631&section=7
+
+https://www.pearsonitcertification.com/articles/article.aspx?p=2873377
+
+http://www.iana.org/
+
 
 
 ### Overcome challenges
