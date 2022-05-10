@@ -18,9 +18,11 @@ An IP Address is the identity of a host. Everything send on the Internet needs a
 * A Network is what transports data traffic between hosts. The Internet is a network of networks.
 
 * Repeater
+
 A repeater regenerates/enhances the signal so u can communicate over larger distances. (wifi repeater)
 
 * Hub
+
 If u have multiple computers which need to be connected each to each other, u use a HUB. A Hub is a multi-port repeater.
 
 ![alt text](../00_includes/NTW/hub.PNG)
@@ -49,24 +51,26 @@ Routers facilitates communication **between** networks and/or internet. Routers 
 
 ![alt text](../00_includes/NTW/Router.PNG)
 
+Routers learn (have IP addresses in the Networks they aree placed) which networks they are attached too = Routes. These Routes are stored in a Routing Table.
+Routing Table: all networks the Router knows about (to direct the traffic).
 
+The IP address of the router in the Network is going to serve a a local's host way out of their local Network to other Networks or the Internet. This is called: Default Gateway (IP address of router in that Network).
 
-
+![alt text](../00_includes/NTW/RouterDefaultGateway.PNG)
 
 ***
 
 ### The OSI Model and Network Devices
 
-The OSI model is basically an overview of how data flows through the Internet.
-The goal is too allow two or more hosts to share data with one another.
+The OSI model is basically an overview of how data flows through the Internet. The goal is too allow two or more hosts to share data with one another. This can be done with devices.
 
 
-
-
+![alt text](../00_includes/NTW/OSI%20en%20Devices%20Table.PNG)
 
 ***
 ## Key terminology
-[Write a list of key terminology with a short description. To prevent duplication you can reference to previous excersizes.]
+
+see above
 
 
 ***
@@ -78,13 +82,14 @@ The goal is too allow two or more hosts to share data with one another.
 
 https://www.geeksforgeeks.org/network-devices-hub-repeater-bridge-switch-router-gateways/
 
+https://www.guru99.com/layers-of-osi-model.html#15
 
-[List your sources you used for solving the exercise]
 
 ***
 ### Overcome challenges
-[Give a short description of your challanges you encountered, and how you solved them.]
+Learn new subjects and relation bewtween it all.
 
 ***
 ### Results
-[Describe here the result of the exercise. An image can speak more than a thousand words, include one when this wisdom applies.]
+
+Notes
