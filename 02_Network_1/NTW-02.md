@@ -2,10 +2,11 @@
 
 ### Network Devices
 * Host
+
 Host are any devices which send or either receives traffic/data over a network.
-Examples: computers,phones,laptop, printer, server, cloudservers
+Examples: computers, phones, laptop, printer, server, cloudservers
 Also Internet of Things devices (IoT) like TV, Speakers, Smart Watch, Lights, Refrigerator, Thermometers.
-    * When thet make a request, they are called Client
+    * When they make a request, they are called Client
     * When they respond to a request they are called Server
 
 So depending on the communication it acts as a Client or a Server.
@@ -21,9 +22,19 @@ A repeater regenerates/enhances the signal so u can communicate over larger dist
 * Hub
 If u have multiple computers which need to be connected each to each other, u use a HUB. A Hub is a multi-port repeater.
 
-![alt text](..)
+![alt text](../00_includes/NTW/hub.PNG)
+
+There is only one big problem with a Hub, everything send between two computers will also be send to the othe other devices connected on that Hub/Network. To solve that problem we have bridges.
+
+![alt text](../00_includes/NTW/``)
 
 * Bridge
+Bridges are used between Hub connected hosts.
+Bridges have only two ports.
+Bridges learn which hosts are on each side. They can sent data only on one side, or from one side to another on one or multiple computers.
+
+
+
 * Switch
 * Router
 
