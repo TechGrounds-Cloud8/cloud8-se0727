@@ -37,9 +37,20 @@ A | 10.0.0.0 -10.255.255.255 | 255.0.0.0
 B | 172.16.0.0. - 172.31.255.255 | 255.255.0.0.
 C | 192.168.0.0. - 192.168.255.255 | 255.255.255.0
 
-Class A starts with the number 10 and is typically used by large organisations.
-Class B starts with 172 and is typically used by medium-sized organisations.
-Class C starts with 192 and is used in small organizations and homes.
+* Class A starts with the number 10 and is typically used by large organisations.
+* Class B starts with 172 and is typically used by medium-sized organisations.
+* Class C starts with 192 and is used in small organizations and homes. This Class is the mostly used.
+
+
+Public IP | Private IP
+--------- | ----------
+Unique | Non-Unique. Can be used on other networks.
+Publicly registered on the internet | Not publicly registered
+Used externally | Used Internally
+Assigned by a ISP | Assigned by a Router (pool with numbers)
+Not free | Free
+Not Secure (use VPN) | More secure
+
 
 
 
