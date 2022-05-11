@@ -133,6 +133,7 @@ Security
 Each type is necessary to use network devices swiftly and safely, and they work together to facilitate that usage.
 
 ***
+So what u need to launch your own protocol is that is should match the standaardisation in protocols (industry standard) already being used and consensus with networking or technology organisations.
 
 ***
 New emerging network protocols
