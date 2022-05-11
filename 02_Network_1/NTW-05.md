@@ -110,11 +110,13 @@ Private addresses zijn op een paar digits niet hetzelfde. Every device has its o
 
 * Verander het privé IP adres van je mobiel naar dat van je laptop.  Wat gebeurt er dan?
 
+
 ![alt text](../00_includes/NTW/veranderen%20ip%20add%20laptop%20en%20mobiel.PNG)
 
 * Probeer het privé IP adres van je mobiel te veranderen naar een adres buiten je netwerk. Wat gebeurt er dan?
 
 ![alt text](../00_includes/NTW/ping%20nu%20website.PNG)
+
 
 ![alt text](../00_includes/NTW/veranderen%20ip%20address%20mobiel%20nr%20nu%20website.PNG)
 
