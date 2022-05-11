@@ -57,14 +57,14 @@ CIDr nog uitleggen
 * DHCP (Dynamic Host Configuration Protocol)
 Every computer or device on a network has to have an IP adddress to communicate. An IP address identifies a computer / device on a network. There are two ways that a computer can be assigned an IP address: 
 
-* 
-
-         * A Static IP is where an user assigns a computer or device an IP address ** Manually**
-
-
 Static IP or Dynamic IP.
 
-* A Static IP is where an user assigns a computer or device an IP address ** Manually**
+A Static IP is where an user assigns a computer or device an IP address ** Manually**
+
+
+
+
+
 
 * Statische en dynamische adressen
  IPv4 en IPv6
