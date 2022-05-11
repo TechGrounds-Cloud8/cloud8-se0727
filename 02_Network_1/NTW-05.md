@@ -23,10 +23,10 @@ The DHCP server (service) inside your Router is what assigns your internal devic
 A home or business has multiple devices with their own Private IP adresses that need access to the Internet. These Private IP addresses will be translated to the one Public IP Address that we have been given by the ISP.
 And the service that translates this is called NAT. 
 
-                * NAT (Network Address Translation)
 
-                NAT is a service built into our router.
-                It translates private to public and also public to private. Because when a computer on the Internet wants to communicate with a computer on your private network (LAN) the public IP address needs to be translated bu NAT to the private IP address for that computer.
+    * NAT (Network Address Translation)
+
+        NAT is a service built into our router.It translates private to public and also public to private. Because when a computer on the Internet wants to communicate with a computer on your private network (LAN) the public IP address needs to be translated bu NAT to the private IP address for that computer.
                 
 
 
