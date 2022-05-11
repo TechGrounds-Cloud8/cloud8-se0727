@@ -59,7 +59,7 @@ Every computer or device on a network has to have an IP adddress to communicate.
 
 * Static IP or Dynamic IP.
 
-        * A Static IP is where an user assigns a computer or device an IP address ** Manually**
+         * A Static IP is where an user assigns a computer or device an IP address ** Manually**
 
 
 
