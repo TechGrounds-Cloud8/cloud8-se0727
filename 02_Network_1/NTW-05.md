@@ -6,6 +6,7 @@ An IP address is a numeric address: it is an identifier for a computer or device
 * Public en Private IPs
 
 There are two different types of IP addresses:
+
         * Public
         * Private
 
@@ -89,11 +90,34 @@ The lease is to help make sure the DHCP server does not run out of IP addresses 
 ## Exercise
 
 * Ontdek wat je publieke IP adres is van je laptop en mobiel op wifi.
+
+![alt text](../00_includes/NTW/Public%20IP%20Laptop.PNG)
+
+
 * Zijn de adressen hetzelfde of niet? Leg uit waarom.
+
+Public IP address are the same, because both devices belongto the LAN network and uses thee default gateway of the Router to connect to the Internet.(Public IP address of the Router)
+
 * Ontdek wat je privé IP adres is van je laptop en mobiel op wifi.
+
+![alt text](../00_includes/NTW/Private%20IP%20via%20cmd%20prompt.PNG)
+![alt text](../00_includes/NTW/verbonden%20app%20%20met%20private%20ip%20address.PNG)
+
 * Zijn de adressen hetzelfde of niet? Leg uit waarom.
+
+Private addresses zijn op een paar digits niet hetzelfde. Every device has its own Private IP address.
+
+
 * Verander het privé IP adres van je mobiel naar dat van je laptop.  Wat gebeurt er dan?
+
+![alt text](../00_includes/NTW/veranderen%20ip%20add%20laptop%20en%20mobiel.PNG)
+
 * Probeer het privé IP adres van je mobiel te veranderen naar een adres buiten je netwerk. Wat gebeurt er dan?
+
+![alt text](../00_includes/NTW/ping%20nu%20website.PNG)
+
+![alt text](../00_includes/NTW/veranderen%20ip%20address%20mobiel%20nr%20nu%20website.PNG)
+
 
 Tip: vergeet niet je instellingen weer terug te zetten wanneer je klaar bent met de opdracht.
 
