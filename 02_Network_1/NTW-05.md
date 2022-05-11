@@ -29,7 +29,17 @@ And the service that translates this is called NAT.
         NAT is a service built into our router.It translates private to public and also public to private. Because when a computer on the Internet wants to communicate with a computer on your private network (LAN) the public IP address needs to be translated bu NAT to the private IP address for that computer.
                 
 
+Private IP addressess have three different classes and these classes have different ranges.
 
+Class | IP Address Range          | Default Subnet Mask
+----- | :-------------------------: | :-------------------:
+A | 10.0.0.0 -10.255.255.255 | 255.0.0.0
+B | 172.16.0.0. - 172.31.255.255 | 255.255.0.0.
+C | 192.168.0.0. - 192.168.255.255 | 255.255.255.0
+
+Class A starts with the number 10 and is typically used by large organisations.
+Class B starts with 172 and is typically used by medium-sized organisations.
+Class C starts with 192 and is used in small organizations and homes.
 
 
 
