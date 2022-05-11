@@ -59,7 +59,14 @@ Every computer or device on a network has to have an IP adddress to communicate.
 
 Static IP or Dynamic IP.
 
-A Static IP is where an user assigns a computer or device an IP address ** Manually**
+A Static IP is where an user assigns a computer or device an IP address   *Manually*:
+So for each computer on the network you had to open up the computer network configuration page and manually type in the IP address, subnetmask, default gateway and DNS server. When u want to add an another computer to the network you would have to do the same thing on that computer. This is a lot of work.
+
+There is a better and easier way to assign an IP address to a computer and this is called an Dynamic IP.
+
+A Dynamic IP is where a compter gets an IP Address automatically from a DHCP server. A DHCP server automatically assigns a computer with an IP address. And also subnetmask, default gateway and DNS server.
+
+The
 
 
 
