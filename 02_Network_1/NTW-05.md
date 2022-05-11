@@ -51,14 +51,21 @@ Assigned by a ISP | Assigned by a Router (pool with numbers)
 Not free | Free
 Not Secure (use VPN) | More secure
 
+CIDr nog uitleggen
+
+
+* DHCP (Dynamic Host Configuration Protocol)
+Every computer or device on a network has to have an IP adddress to communicate. An IP address identifies a computer / device on a network. There are two ways that a computer can be assigned an IP address: 
+
+* Static IP or Dynamic IP.
+
+        * A Static IP is where an user assigns a computer or device an IP address ** Manually**
 
 
 
 
 
 
-
-* NAT
 * Statische en dynamische adressen
  IPv4 en IPv6
 
@@ -70,6 +77,7 @@ Not Secure (use VPN) | More secure
 * IPv4 en IPv6
 * Public en Private IPs
 * NAT
+* CIDR
 * Statische en dynamische adressen
 
 
