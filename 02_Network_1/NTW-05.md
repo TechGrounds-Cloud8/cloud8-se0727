@@ -66,14 +66,9 @@ There is a better and easier way to assign an IP address to a computer and this 
 
 A Dynamic IP is where a compter gets an IP Address automatically from a DHCP server. A DHCP server automatically assigns a computer with an IP address. And also subnetmask, default gateway and DNS server.
 
-The
+The DHCP server assigns the IP address as a lease. A lease is the amount of time an IP address is assigned to a computer.
+The lease is to help make sure the DHCP server does not run out of IP addresses in its pool/scope.
 
-
-
-
-
-
-* Statische en dynamische adressen
  IPv4 en IPv6
 
 
@@ -93,6 +88,14 @@ The
 ***
 ## Exercise
 
+* Ontdek wat je publieke IP adres is van je laptop en mobiel op wifi.
+* Zijn de adressen hetzelfde of niet? Leg uit waarom.
+* Ontdek wat je privé IP adres is van je laptop en mobiel op wifi.
+* Zijn de adressen hetzelfde of niet? Leg uit waarom.
+* Verander het privé IP adres van je mobiel naar dat van je laptop.  Wat gebeurt er dan?
+* Probeer het privé IP adres van je mobiel te veranderen naar een adres buiten je netwerk. Wat gebeurt er dan?
+
+Tip: vergeet niet je instellingen weer terug te zetten wanneer je klaar bent met de opdracht.
 
 
 ***
