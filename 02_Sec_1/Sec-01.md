@@ -24,6 +24,12 @@ Other features of Nmap include:
     > nmap -sp 192.168.1.1/24
     Scan a single host — Scans a single host for 1000 well-known ports. These ports are the ones used by popular services like SQL, SNTP, apache, and others.
 
+    Port Scanning
+    Port scanning is one of the most fundamental features of Nmap. You can scan for ports in several ways.
+
+    Using the -p param to scan for a single port
+    > nmap -p portnr ---.----.--.-- (ip address)
+
     > nmap scanme.nmap.org
 
     * Helps identify services running on a system including web servers, DNS servers, and other common applications. Nmap can also detect application versions with reasonable accuracy to help detect existing vulnerabilities.
@@ -32,11 +38,11 @@ Other features of Nmap include:
 
     Scan to Find out OS Information
 
-    nmap -A 192.168.0.1
+    nmap -A ---.----.--.-- (ip address)
 
     Add in the -A flag on your Nmap command, you can discover the operating system information of the hosts that are mapped. The -A flag can be used in combination with other Nmap commands.
 
-    nmap -O 192.168.0.1
+    nmap -O ---.----.--.-- (ip address)
 
     Using the -O flag on your Nmap command will reveal further operating system information of the mapped hosts. The -O flag enables OS detection.
 
@@ -60,11 +66,13 @@ Other features of Nmap include:
     Identify Hostnames
     There are a few ways you can implement host discovery through Nmap. The most common of which is through -sL. For example:
 
-    nmap -sL 192.168.0.1
+    nmap -sL ---.----.--.-- (ip address)
 
 
 * During security auditing and vulnerability scanning, you can use Nmap to attack systems using existing scripts from the Nmap Scripting Engine.
 * Nmap has a graphical user interface called Zenmap. It helps you develop visual mappings of a network for better usability and reporting.
+
+
 
 
 ***
