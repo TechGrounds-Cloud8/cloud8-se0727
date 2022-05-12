@@ -151,7 +151,8 @@ Open port 80 - HTTP
 HTTP connections can be allowed with the following command:
 sudo ufw allow http
 instead of http you can use the port number, 80:
-sudo ufw allow 80/tcp
+sudo ufw allow 80/tcp  to allow HTTP connections.
+or sudo ufw allow http  to allow HTTP connections.
 
 
 Access Web Server Through a Browser
@@ -167,7 +168,41 @@ In our case, we have typed http://18.196.32.244:55813 and pressed Enter. This sh
 
 If you see the Apache default page, it means you have successfully installed the Apache webserver on your system.
 
+
+Denying connections
+The default policy for all incoming connections is set to deny, and if you haven’t changed it, UFW will block all incoming connections unless you specifically open the connection.
+
+Writing deny rules is the same as writing allow rules; you only need to use the deny keyword instead of allow.
+
+sudo ufw deny from http or 80/tcp
+
+
+
+Deleting UFW Rules
+There are two different ways to delete UFW rules by rule number, and by specifying the actual rule.
+
+Deleting rules by rule number is easier, especially when you are new to UFW. To delete a rule by a rule number first, you need to find the number of the rule you want to delete. To get a list of numbered rules, use the ufw status numbered command: sudo ufw status numbered
+Output
+Status: active
+
+     To                         Action      From
+     --                         ------      ----
+[ 1] 22/tcp                     ALLOW IN    Anywhere
+[ 2] 80/tcp                     ALLOW IN    Anywhere
+[ 3] 8080/tcp                   ALLOW IN    Anywhere
+
+To delete rule number 3, the one that allows connections to port 8080, you would enter: sudo ufw delete 3
+Output: see list above without 3
+
+
+
+
+
+
+***
 https://linuxize.com/post/how-to-setup-a-firewall-with-ufw-on-ubuntu-18-04/
+
+https://phoenixnap.com/kb/configure-firewall-with-ufw-on-ubuntu#ftoc-heading-5
 
 
 ***
