@@ -72,6 +72,10 @@ Other features of Nmap include:
 * During security auditing and vulnerability scanning, you can use Nmap to attack systems using existing scripts from the Nmap Scripting Engine.
 * Nmap has a graphical user interface called Zenmap. It helps you develop visual mappings of a network for better usability and reporting.
 
+WireShark
+
+Wireshark is a network packet analyzer. A network packet analyzer presents captured packet data in as much detail as possible. With Wireshark you can capture, interpret, filter and inspect data packets to effectively troubleshoot issues related to network or security.
+
 
 
 
@@ -87,7 +91,6 @@ WireShark
 ## Exercise
 
 * Scan the network of your Linux machine using nmap. What do you find?
-
 
 
 The exercise beneath has already been done in [NTW-03](../02_Network_1/NTW-03.md)
@@ -107,6 +110,8 @@ https://phoenixnap.com/kb/nmap-command-linux-examples
 https://www.freecodecamp.org/news/what-is-nmap-and-how-to-use-it-a-tutorial-for-the-greatest-scanning-tool-of-all-time/
 
 https://tecadmin.net/scanning-open-ports-with-nmap/
+
+https://www.comptia.org/content/articles/what-is-wireshark-and-how-to-use-it
 
 
 
