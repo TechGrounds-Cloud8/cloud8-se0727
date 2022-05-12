@@ -74,9 +74,9 @@ Other features of Nmap include:
 
 WireShark
 
-Wireshark is a network packet analyzer. A network packet analyzer presents captured packet data in as much detail as possible. With Wireshark you can capture, interpret, filter and inspect data packets to effectively troubleshoot issues related to network or security.
+Wireshark is a network packet analyzer (for analyzing network traffic). A network packet analyzer presents captured packet data in as much detail as possible. With Wireshark you can capture, interpret, filter and inspect data packets to effectively troubleshoot issues related to network or security.
 
-
+Wireshark can analyze data from the wire, via a live network connection, or analyze data files from packets that have already been captured. It can capture traffic from a variety of media types, too, like Ethernet, LAN, USB, and Bluetooth. The tool is also capable of reading live data from all sorts of networks: Ethernet, IEEE, 802.11, point-to-point Protocol (PPP) and loopback included. And a user can trace VoIP calls made over the network when analyzing captured traffic.
 
 
 ***
@@ -111,16 +111,17 @@ https://www.freecodecamp.org/news/what-is-nmap-and-how-to-use-it-a-tutorial-for-
 
 https://tecadmin.net/scanning-open-ports-with-nmap/
 
+https://proprivacy.com/blog/what-is-wireshark
+
 https://www.comptia.org/content/articles/what-is-wireshark-and-how-to-use-it
-
-
-
-
-
 
 ***
 ### Overcome challenges
 
 
+
+
 ***
 ### Results
+
+
