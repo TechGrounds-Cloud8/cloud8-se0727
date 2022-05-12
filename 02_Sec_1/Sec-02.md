@@ -93,12 +93,144 @@ https://linuxhint.com/open-port-80-centos/
 
 https://linuxconfig.org/ubuntu-20-04-open-http-port-80-and-https-port-443-with-ufw
 
+https://linuxize.com/post/how-to-setup-a-firewall-with-ufw-on-ubuntu-18-04/#check-ufw-status
+
+
+https://www.delftstack.com/howto/linux/configuring-the-apache-web-server-on-ubuntu-and-debian/
+
+https://www.delftstack.com/howto/linux/configuring-the-apache-web-server-on-ubuntu-and-debian/
 
 
 
 
 ***
 ### Overcome challenges
+
+Check UFW Status
+Once the installation is completed you can check the status of UFW with the following command:
+sudo ufw status verbose
+Copy
+UFW is disabled by default. If you never activated UFW before, the output will look like this:
+
+Status: inactive
+
+UFW Default Policies
+By default, UFW will block all of the incoming connections and allow all outbound connections. This means that anyone trying to access your server will not be able to connect unless you specifically open the port, while all applications and services running on your server will be able to access the outside world.
+The default polices are defined in the /etc/default/ufw file and can be changed using the sudo ufw default <policy> <chain> command.
+
+Allow SSH Connections
+Before enabling the UFW firewall we need to add a rule which will allow incoming SSH connections. If you’re connecting to your server from a remote location, which is almost always the case and you enable the UFW firewall before explicitly allow incoming SSH connections you will no longer be able to connect to your Ubuntu server.
+
+To configure your UFW firewall to allow incoming SSH connections, type the following command:
+
+sudo ufw allow ssh
+Output:
+Rules updated
+Rules updated (v6)
+
+f you changed the SSH port to a custom port instead of the port 22, you will need to open that port.
+
+For example, if your ssh daemon listens on port 4422, then you can use the following command to allow connections on that port:
+sudo ufw allow 55813/tcp
+
+Enable UFW
+Now that your UFW firewall is configured to allow incoming SSH connections, we can enable it by typing:
+sudo ufw enable
+Output:
+Command may disrupt existing ssh connections. Proceed with operation (y|n)? y
+Firewall is active and enabled on system startup
+You will be warned that enabling the firewall may disrupt existing ssh connections, just type y and hit Enter.
+
+Allow connections on other ports
+
+Depending on the applications that run on your server and your specific needs you’ll also need to allow incoming access to some other ports.
+
+Below we will show you a few examples on how to allow incoming connections to some of the most common services:
+
+Open port 80 - HTTP
+HTTP connections can be allowed with the following command:
+sudo ufw allow http
+instead of http you can use the port number, 80:
+sudo ufw allow 80/tcp
+
+TUTORIALS
+HOWTOS
+
+ 
+
+ 
+
+ 
+
+ 
+
+Linux Howtos
+Fix the Mkvirtualenv Command Not Found Error in Bash
+Syntax Error Near Unexpected Token in Bash
+Difference Between $@ and $* in Bash Scripting
+Solve GCC Command Not Found Error in Bash
+Solve Unary Operator Expected Error in Bash
+Solve Export Not a Valid Identifier Error in Bash
+Solve Make Command Not Found Error in Linux Bash
+Solve No Such File or Directory Error in Linux Bash
+
+Ezoicreport this ad
+HowToLinux HowtosConfigure Apache Web Server on Ubuntu and Debian
+Configure Apache Web Server on Ubuntu and Debian
+
+ 
+Created: February-15, 2022
+
+The Apache Webserver in Ubuntu and Debian
+Apache Installation in Ubuntu and Debian
+Start Apache Webserver in Ubuntu and Debian
+Access Web Server Through a Browser
+Check Apache Access Logs in Ubuntu and Debian
+This tutorial shows installing the Apache webserver on Ubuntu and Debian, setting it up and accessing the access logs.
+
+The Apache Webserver in Ubuntu and Debian
+
+PlayUnmute
+Fullscreen
+VDO.AI
+Apache HTTP Server is a free and open-source web server and very popular.
+
+More than half of the active websites on the internet use the apache web server. It is developed and maintained by the Apache Software Foundation.
+
+Apache Installation in Ubuntu and Debian
+The installation and configuration of the Apache webserver using the root account on Kali Linux can be performed by anyone.
+
+To install the Apache on Ubuntu or Debian, run the following command.
+
+apt-get install apache2
+We run the command to install the Apache webserver in the image below. However, the system says that the Apache web server is already installed.
+
+Command Used to Install the Apache Webserver
+
+Start Apache Webserver in Ubuntu and Debian
+Once the Apache webserver has been installed, we can start the server by running the following command.
+
+service apache2 start
+This command starts the webserver up and running. We can use the command service apache2 status to check the server’s status.
+
+In the image below, we start the Apache webserver running, and we use the service apache2 status command to check the status of the webserver. The image shows that the server is actively running.
+
+
+server is active running
+
+Access Web Server Through a Browser
+We can now access the webserver through the browser.
+
+Open the browser of your choice. We have used Firefox in this tutorial and typed the localhost IP address.
+
+The notation should look like the following.
+
+http://your_server_ip
+
+In our case, we have typed http://18.196.32.244:55813 and pressed Enter. This should take you to the Apache default page.
+
+If you see the Apache default page, it means you have successfully installed the Apache webserver on your system.
+
 
 
 
