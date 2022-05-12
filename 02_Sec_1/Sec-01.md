@@ -16,6 +16,14 @@ Nmap helps you to quickly map out a network without sophisticated commands or co
 Other features of Nmap include:
 
 * Ability to quickly recognize all the devices including servers, routers, switches, mobile devices, etc on single or multiple networks.
+
+    Scanning the list of active devices on a network is the first step in network mapping. There are two types of scans you can use for that:
+
+    Ping scan — Scans the list of devices up and running on a given subnet.
+    > nmap -sp 192.168.1.1/24
+    Scan a single host — Scans a single host for 1000 well-known ports. These ports are the ones used by popular services like SQL, SNTP, apache, and others.
+    > nmap scanme.nmap.org
+
 * Helps identify services running on a system including web servers, DNS servers, and other common applications. Nmap can also detect application versions with reasonable accuracy to help detect existing vulnerabilities.
 * Nmap can find information about the operating system running on devices. It can provide detailed information like OS versions, making it easier to plan additional approaches during penetration testing.
 * During security auditing and vulnerability scanning, you can use Nmap to attack systems using existing scripts from the Nmap Scripting Engine.
@@ -46,6 +54,8 @@ https://phoenixnap.com/kb/how-to-install-nmap-ubuntu-18-04
 https://phoenixnap.com/kb/nmap-command-linux-examples
 
 https://www.freecodecamp.org/news/what-is-nmap-and-how-to-use-it-a-tutorial-for-the-greatest-scanning-tool-of-all-time/
+
+https://tecadmin.net/scanning-open-ports-with-nmap/
 
 
 
