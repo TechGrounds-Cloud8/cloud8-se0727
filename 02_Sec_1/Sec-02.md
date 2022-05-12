@@ -7,7 +7,7 @@ Firewalls are hardware and/or software systems which protect end users from mali
 Firewalls accomplish this control by inspecting data packets. The data within the packets can be inspected by the firewall to see if it contains threats. Part of this process involves checking how the data should connect to and move through the network. 
 
 
-stateful firewalls vs stateless firewalls
+### stateful firewalls vs stateless firewalls
 
 #### What is a stateful firewall?
 
@@ -31,6 +31,23 @@ Stateless firewalls don't look beyond the header of packet contents to determine
 
 The stateless firewalls are designed to protect networks based on static information such as source and destination.
 
+
+### hardware firewalls vs software firewalls
+
+The main difference between a hardware firewall and a software firewall is that the hardware firewall runs on its own physical device, while a software firewall is installed on another machine. A common example of a software firewall is the firewall built into most operating systems like Windows and macOS. 
+
+Difference between Hardware and Software firewall : 
+
+Software Firewall |	Hardware Firewall
+----------------- | ------------------
+Software Firewall operates on the system. |	Hardware Firewall do not operate on the system.
+Configuration of software firewall is easy.	| Configuration of hardware firewall is not easy.
+It is more expensive. | It is cheaper than software firewall.
+It is flexible i.e., you can choose which application has to be installed. |	It is not flexible like software firewall.
+It is installed inside the individual system. |	It is installed outside the system.
+It protects the one system at a time. |	It protects a whole network at a time.
+It makes the performance of computers slows down.| It doesn’t affects the performance of the computer.
+It has needed to be installed on every individual system on a network. |	It needs only one hardware to be installed for a whole network.
 
 
 
@@ -62,6 +79,10 @@ https://www.geeksforgeeks.org/stateless-vs-stateful-packet-filtering-firewalls/
 https://sandstormit.com what-is-a-firewall-and-why-do-i-need-one/
 
 https://www.fortinet.com/resources/cyberglossary/stateful-vs-stateless-firewall
+
+https://www.checkpoint.com/cyber-hub/network-security/what-is-firewall/what-is-a-hardware-firewall/#:~:text=The%20main%20difference%20between%20a,systems%20like%20Windows%20and%20macOS.
+
+https://opensource.com/article/18/9/linux-iptables-firewalld
 
 
 
