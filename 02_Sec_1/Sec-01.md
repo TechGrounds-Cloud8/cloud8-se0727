@@ -88,14 +88,19 @@ WireShark
 
 
 ***
-## Exercise
+## Exercise and Results
 
 * Scan the network of your Linux machine using nmap. What do you find?
+
+
 
 
 The exercise beneath has already been done in [NTW-03](../02_Network_1/NTW-03.md)
 * Open Wireshark in Windows/MacOS Machine. Analyse what happens when you open an internet browser. (Tip: you will find that Zoom is constantly sending packets over the network. You can either turn off Zoom for a minute, or look for the packets sent by the browser between the packets sent by Zoom.)
 
+![alt text](..)
+![alt text](..)
+![alt text](..)
 
 
 
@@ -115,13 +120,13 @@ https://proprivacy.com/blog/what-is-wireshark
 
 https://www.comptia.org/content/articles/what-is-wireshark-and-how-to-use-it
 
+
 ***
 ### Overcome challenges
 
-
-
-
 ***
-### Results
+
+
+
 
 
