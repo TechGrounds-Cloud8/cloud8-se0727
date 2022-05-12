@@ -66,6 +66,11 @@ It has needed to be installed on every individual system on a network. |	It need
 
 * Installeer een webserver op je VM.
 * Bekijk de standaardpagina die met de webserver geïnstalleerd is.
+
+How Do I Know If Apache Is Installed?
+You can enter http://server-ip:80 on your web browser as the address for an Apache web server. You should see the statement that your Apache server is functioning properly. Clicking this command will enable you to confirm whether or not Apache is running.
+
+
 * Stel de firewall zo in dat je webverkeer blokkeert, maar wel ssh-verkeer toelaat.
 * Controleer of de firewall zijn werk doet.
 
@@ -83,6 +88,10 @@ https://www.fortinet.com/resources/cyberglossary/stateful-vs-stateless-firewall
 https://www.checkpoint.com/cyber-hub/network-security/what-is-firewall/what-is-a-hardware-firewall/#:~:text=The%20main%20difference%20between%20a,systems%20like%20Windows%20and%20macOS.
 
 https://opensource.com/article/18/9/linux-iptables-firewalld
+
+https://linuxhint.com/open-port-80-centos/
+
+https://linuxconfig.org/ubuntu-20-04-open-http-port-80-and-https-port-443-with-ufw
 
 
 
