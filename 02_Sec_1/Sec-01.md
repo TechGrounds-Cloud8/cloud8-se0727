@@ -20,12 +20,49 @@ Other features of Nmap include:
     Scanning the list of active devices on a network is the first step in network mapping. There are two types of scans you can use for that:
 
     Ping scan — Scans the list of devices up and running on a given subnet.
+
     > nmap -sp 192.168.1.1/24
     Scan a single host — Scans a single host for 1000 well-known ports. These ports are the ones used by popular services like SQL, SNTP, apache, and others.
+
     > nmap scanme.nmap.org
 
-* Helps identify services running on a system including web servers, DNS servers, and other common applications. Nmap can also detect application versions with reasonable accuracy to help detect existing vulnerabilities.
-* Nmap can find information about the operating system running on devices. It can provide detailed information like OS versions, making it easier to plan additional approaches during penetration testing.
+    * Helps identify services running on a system including web servers, DNS servers, and other common applications. Nmap can also detect application versions with reasonable accuracy to help detect existing vulnerabilities.
+
+    * Nmap can find information about the operating system running on devices. It can provide detailed information like OS versions, making it easier to plan additional approaches during penetration testing.
+
+    Scan to Find out OS Information
+
+    nmap -A 192.168.0.1
+
+    Add in the -A flag on your Nmap command, you can discover the operating system information of the hosts that are mapped. The -A flag can be used in combination with other Nmap commands.
+
+    nmap -O 192.168.0.1
+
+    Using the -O flag on your Nmap command will reveal further operating system information of the mapped hosts. The -O flag enables OS detection.
+
+    To do a version scan, use the ‘-sV’ command. Nmap will provide a list of services with its versions.
+
+    > nmap -sV scanme.nmap.org
+
+    Find Host Interfaces, Routes, and Packets
+    It may become necessary to find host interfaces, print interfaces, and routes to debug.
+
+    To do this, use the iflist command:
+
+    nmap --iflist
+
+    The “–iflist” command will produce a list of the relevant interfaces and routes.
+
+    nmap --packet-trace
+
+    Similarly, “–packet-trace” will show packets sent and received, providing similar value for debugging.
+
+    Identify Hostnames
+    There are a few ways you can implement host discovery through Nmap. The most common of which is through -sL. For example:
+
+    nmap -sL 192.168.0.1
+
+
 * During security auditing and vulnerability scanning, you can use Nmap to attack systems using existing scripts from the Nmap Scripting Engine.
 * Nmap has a graphical user interface called Zenmap. It helps you develop visual mappings of a network for better usability and reporting.
 
