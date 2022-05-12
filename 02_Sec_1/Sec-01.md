@@ -82,8 +82,8 @@ Wireshark can analyze data from the wire, via a live network connection, or anal
 ***
 ## Key terminology
 
-NMap commands---see above
-WireShark
+* NMap commands---see above 
+* WireShark
 
 
 
@@ -92,19 +92,19 @@ WireShark
 
 * Scan the network of your Linux machine using nmap. What do you find?
 
+![alt text](../00_includes/Sec/scan%20nr%20open%20ports%20met%20os%20%20Nmap%20commando.PNG)
+
+
+![alt text](../00_includes/Sec/route%20en%20host%20information.PNG)
+
+
+![alt text](../00_includes/Sec/overzicht%20iedereen.PNG)
+
 
 
 
 The exercise beneath has already been done in [NTW-03](../02_Network_1/NTW-03.md)
 * Open Wireshark in Windows/MacOS Machine. Analyse what happens when you open an internet browser. (Tip: you will find that Zoom is constantly sending packets over the network. You can either turn off Zoom for a minute, or look for the packets sent by the browser between the packets sent by Zoom.)
-
-![alt text](..)
-![alt text](..)
-![alt text](..)
-
-
-
-
 ***
 ### Sources
 
