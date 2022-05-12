@@ -67,14 +67,26 @@ It has needed to be installed on every individual system on a network. |	It need
 * Installeer een webserver op je VM.
 * Bekijk de standaardpagina die met de webserver geïnstalleerd is.
 
-How Do I Know If Apache Is Installed?
-You can enter http://server-ip:80 on your web browser as the address for an Apache web server. You should see the statement that your Apache server is functioning properly. Clicking this command will enable you to confirm whether or not Apache is running.
+
+
+
+
+
+![alt text](../00_includes/Sec/Sec2/status%20firewall%20deafult.PNG)
+
+![alt text](../00_includes/Sec/Sec2/firewall%20enable%20plus%20port%2080%20open.PNG)
+
+![alt text](../00_includes/Sec/Sec2/Resultaat%20open%20porten%20UFW%20Firewall.PNG)
+
+![alt text](../00_includes/Sec/Sec2/Resultaat%20default%20page%20apache.PNG)
+
 
 
 * Stel de firewall zo in dat je webverkeer blokkeert, maar wel ssh-verkeer toelaat.
 * Controleer of de firewall zijn werk doet.
 
-
+![alt text](../00_includes/Sec/Sec2/ssh%20allowed%20other%20closed%20browser.PNG)
+![alt text](../00_includes/Sec/Sec2/ssh%20allowed%20other%20closed.PNG)
 
 ***
 ### Sources
@@ -105,6 +117,8 @@ https://www.delftstack.com/howto/linux/configuring-the-apache-web-server-on-ubun
 
 ***
 ### Overcome challenges
+
+Tutorial
 
 Check UFW Status
 Once the installation is completed you can check the status of UFW with the following command:
@@ -175,8 +189,6 @@ The default policy for all incoming connections is set to deny, and if you haven
 Writing deny rules is the same as writing allow rules; you only need to use the deny keyword instead of allow.
 
 sudo ufw deny from http or 80/tcp
-
-
 
 Deleting UFW Rules
 There are two different ways to delete UFW rules by rule number, and by specifying the actual rule.
