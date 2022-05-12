@@ -1,12 +1,35 @@
 ## Sec-01 Network detection
 
+
+
+***
 ## Key terminology
 
+
+
+
+
+***
 ## Exercise
 
+
+
+
+
+
+***
 ### Sources
 
-hjdsfjowjefw    fo  
+https://phoenixnap.com/kb/how-to-install-nmap-ubuntu-18-04
+
+https://phoenixnap.com/kb/nmap-command-linux-examples
+
+
+
+
+***
 ### Overcome challenges
 
+
+***
 ### Results
