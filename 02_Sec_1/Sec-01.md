@@ -92,13 +92,13 @@ Wireshark can analyze data from the wire, via a live network connection, or anal
 
 * Scan the network of your Linux machine using nmap. What do you find?
 
-![alt text](../00_includes/Sec/scan%20nr%20open%20ports%20met%20os%20%20Nmap%20commando.PNG)
+![alt text](../00_includes/Sec/Sec1/scan%20nr%20open%20ports%20met%20os%20%20Nmap%20commando.PNG)
 
 
-![alt text](../00_includes/Sec/route%20en%20host%20information.PNG)
+![alt text](../00_includes/Sec/Sec1/route%20en%20host%20information.PNG)
 
 
-![alt text](../00_includes/Sec/overzicht%20iedereen.PNG)
+![alt text](../00_includes/Sec/Sec1/overzicht%20iedereen.PNG)
 
 
 
