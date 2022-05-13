@@ -37,11 +37,11 @@ Or:
 
 1 * $2^$5 25 |	32
 
-0 * 24 | 	0
-1 * 23 | 8
-0 * 22 | 	0
-1 * 21 |	2
-0 * 20 |	0
+0 * 2^4 | 	0
+1 * 2^3 | 8
+0 * 2^2 | 	0
+1 * 2^1 |	2
+0 * 2^0 |	0
 
 As you can see from this example, binary is not as convenient as decimal for humans to read and work with. So you may be asking, Why bother with binary then? The answer is that it is an easier format for computers to work with. It may also be utilised in other areas as a shortcut to represent settings.
 
@@ -56,7 +56,7 @@ Let's take the decimal number 27.
 
 In hexadecimal this would be 1B which in decimal translates into:
 
-1 * 161 + 11 * 160 = 16 + 11
+1 * 16^1 + 1^1 * 16^0 = 16 + 11
 
 
 
