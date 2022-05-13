@@ -14,7 +14,7 @@ If I have the binary number 101010, this translates into decimal as:
 Or:
 
 
-1 * 2^5 25 |	32
+1 * $2^$5 25 |	32
 
 0 * 24 | 	0
 1 * 23	8
@@ -94,6 +94,12 @@ https://www.youtube.com/watch?v=bt4zavZCrLg
 http://www.steves-internet-guide.com/binary-numbers-explained/
 
 https://ryanstutorials.net/binary-tutorial/
+
+https://jaantollander.com/post/scientific-writing-with-markdown/
+
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
+https://learninglab.gitlabpages.inria.fr/mooc-rr/mooc-rr-ressources/module1/ressources/introduction_to_markdown.html#exponents-and-indices
 
 
 ***
