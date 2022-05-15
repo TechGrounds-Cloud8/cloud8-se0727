@@ -87,43 +87,22 @@ So Subnet 2 Range : 192.168.0.129 /25 - 192.168.0.254 /25
 
 
 
-
-
-
-
 ***
 ## Key terminology
 
-IPv4 Address
-Mask
-Subnet
-Double Decimal Referencing Chart
-Magical Number 
+* IPv4 Address
+* Mask
+* Subnet
+* Double Decimal Referencing Chart
+* Magical Number 
 
 
 
 ***
 ## Exercise and Results
 
-The requirement is to perform subnetting such that we create as many subnets as we can with 30 hosts in each subnet.
 
-Our First step will be to determine how many bits do we need to borrow from the host portion such that the requirement of minimum 30 hosts per subnet is fulfilled. Using the formula below
 
-2n -2, 
-
-Where the exponent n is equal to the number of bits left after subnet bits are borrowed.
-
-we can calculate how many bits will be required so that each subnet has 30 host addresses. 25 -2 =30, so 5 bits atleast must be available for host addressing and the remaining can be borrowed to create subnet addresses. The -2 in the formula accounts for two addresses the subnetwork address and the broadcast address which cannot be assigned to hosts.
-
-The network 192.168.116.0/24 has 8 bits for host portion and we will reserve 5 bits for the new host portion, the 3 bits remaining can now be used for creating subnets. To determine how many subnets we can
-
-create, use the following formula:
-
-2n = number of subnets
-
-where the exponent n is bits borrowed from the host portion.
-
-Thus in this case we can create 23 =8 subnets
 
 
 
