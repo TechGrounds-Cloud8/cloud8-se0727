@@ -75,13 +75,23 @@ Last ip address i first Subnet is reserved for broadcasting 192.168.0.127
 
 192.168.0.0 /24
 
-So Subnet 1 Range : 192.168.0.1 /25 - 192.168.0.126 /25
+So Subnet 1 (address 192.168.0.0/25) Range : 192.168.0.1 /25 - 192.168.0.126 /25
 
 (192.168.0.0 /25 Router,  192.168.0.127 Broadcast))
 
-So Subnet 2 Range : 192.168.0.129 /25 - 192.168.0.254 /25
+So Subnet 2 (address 192.168.0.128/25) Range : 192.168.0.129 /25 - 192.168.0.254 /25
 
 (192.168.0.128 Router, 192.168.0.255 Broadcast).
+
+
+Subnet address |Netmask	| Range of addresses|Useable IPs |	Hosts
+
+-----------|----------|----------|-----------|----------|-----------|
+
+192.168.0.0/25|	255.255.255.128| 192.168.0.0 - 192.168.0.127|	192.168.0.1 - 192.168.0.126|	126 
+
+192.168.0.128/25|	255.255.255.128|	192.168.0.128 - 192.168.0.255|	192.168.0.129 - 192.168.0.254|	126	
+
 
 
 
@@ -109,8 +119,17 @@ So Subnet 2 Range : 192.168.0.129 /25 - 192.168.0.254 /25
 ***
 ### Sources
 
-https://cidr.xyz/
+https://cidr.xyz/ , https://www.ipaddressguide.com/cidr
 
+https://www.certificationkits.com/cisco-certification/ccna-articles/cisco-ccna-network-layer-conceptslayer-3/calculate-hosts-in-a-subnet-networks-in-a-subnet-a-range-of-ips/
+
+https://www.keycdn.com/support/what-is-cidr
+
+https://www.geeksforgeeks.org/routing-tables-in-computer-network/
+
+https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Scenario2.html
+
+https://www.davidc.net/sites/default/subnets/subnets.html
 https://www.certificationkits.com/cisco-certification/ccna-articles/cisco-ccna-network-layer-conceptslayer-3/calculate-hosts-in-a-subnet-networks-in-a-subnet-a-range-of-ips/
 
 
