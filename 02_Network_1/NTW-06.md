@@ -71,7 +71,7 @@ So first bit of last octet is part of Network, So there are 64+32+16+8+4+2+1 is 
 128 is also Magic Number, so each subnet starts after 128 hosts.
 
 Start Range is  192.168.0.0 is reserved for Router
-LAst ip address i first Subnet is reserved for broadcasting 192.168.0.127
+Last ip address i first Subnet is reserved for broadcasting 192.168.0.127
 
 192.168.0.0 /24
 
@@ -91,22 +91,13 @@ So Subnet 2 Range : 192.168.0.129 /25 - 192.168.0.254 /25
 
 
 
-
-
-
-
-
-
-
-
-
 ***
 ## Key terminology
 
 IPv4 Address
 Mask
 Subnet
-Double 
+Double Decimal Referencing Chart
 Magical Number 
 
 
