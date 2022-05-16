@@ -45,10 +45,10 @@ is a cryptographic protocol designed to provide communications security over a c
 ***
 ## Key terminology
 
-Cryptography
-Cipher
-Caesar cipher
-Basic of cryptography: symmetric encryption
+* Cryptography
+* Cipher
+* Caesar cipher
+* Basic of cryptography: symmetric encryption
 
 
 
