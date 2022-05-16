@@ -112,11 +112,12 @@ https://www.websiterating.com/nl/cloud-storage/what-is-aes-256-encryption/
 https://www.cryptomathic.com/news-events/blog/symmetric-key-encryption-why-where-and-how-its-used-in-banking
 
 
-
-
 ***
 ### Overcome challenges
 
+It was difficult to get an example of symmetric encryption. I almost went for the Caesar cipher.
 
 ***
 ### Results
+
+see above
