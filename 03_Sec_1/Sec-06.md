@@ -115,9 +115,10 @@ The command details are as followed:
 * -days 365 – the number of days to certify the certificate for. Typically a year or more
 * -nodes – creates a key without a passphrase.
 * -out example.crt – specifies the filename to write the newly created certificate to
--keyout example.key – specifies the filename to write the private key to.
+* -keyout example.key – specifies the filename to write the private key to.
 
 Once you press ENTER, the command will generate a private key and prompt you with series of questions to use to generate the certificate.
+
 
 ![alt text](../00_includes/Sec/Sec6/sec-06%20creating%20certificate%20and%20key.PNG)
 
@@ -207,6 +208,8 @@ https://linuxize.com/post/creating-a-self-signed-ssl-certificate/
 https://devopscube.com/create-self-signed-certificates-openssl/
 
 http://woshub.com/updating-trusted-root-certificates-in-windows-10/#h2_1
+
+https://docs.microsoft.com/en-us/dotnet/framework/wcf/feature-details/how-to-view-certificates-with-the-mmc-snap-in#to-view-certificates-for-the-current-user
 
 https://unix.stackexchange.com/questions/97244/list-all-available-ssl-ca-certificates
 
