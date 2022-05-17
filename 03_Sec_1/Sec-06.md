@@ -32,8 +32,6 @@ CA digitally signs this entire information and includes digital signature in the
 
 Anyone who needs the assurance about the public key and associated information of client carries out the signature validation process using CA’s public key. Successful validation assures that the public key given in the certificate belongs to the person whose details are given in the certificate.
 
-The process of obtaining Digital Certificate by a person/entity is depicted in the following illustration.
-
 ![alt text](../00_includes/Sec/Sec6/sec-06%20The%20process%20of%20validating%20in%20PKI.PNG)
 
 
