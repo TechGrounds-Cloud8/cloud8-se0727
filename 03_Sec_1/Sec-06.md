@@ -94,14 +94,99 @@ When there are multiple CAs in a PKI, the CAs are structured in a hierarchy or c
 ***
 ### Exercise and Results
 
-* Create a self-signed certificate on your VM.
+* ## Create a self-signed certificate on your VM.
+
+### How to create a self-signed SSL Certificate using the OpenSSl tool on Ubuntu Linux.
+
+Prerequisites
+The OpenSSL toolkit is required to generate a self-signed certificate.
+
+To check whether the openssl package is installed on your Linux system, open your terminal, type **openssl version**, and press Enter. If the package is installed, the system will print the OpenSSL version, otherwise you will see something like openssl command not found.
+
+
+To create a new Self-Signed SSL Certificate, use the openssl req command. Below is the command to generate a SSL/TLS certificate for the example.com domain.
+openssl req -newkey rsa:4096 -x509 -sha256 -days 365 -nodes -out example.crt -keyout example.key
+
+The command details are as followed:
+
+* -newkey rsa:2048 – creates a new certificate request and 2048 bit RSA key.
+* -x509 – creates a X.509 certificate.
+* -sha256 – use 265-bit SHA (Secure Hash Algorithm) to create the certificate
+* -days 365 – the number of days to certify the certificate for. Typically a year or more
+* -nodes – creates a key without a passphrase.
+* -out example.crt – specifies the filename to write the newly created certificate to
+-keyout example.key – specifies the filename to write the private key to.
+
+Once you press ENTER, the command will generate a private key and prompt you with series of questions to use to generate the certificate.
+
+![alt text](../00_includes/Sec/Sec6/sec-06%20creating%20certificate%20and%20key.PNG)
+
+Generating a RSA private key
+...................................++++
+............................++++
+writing new private key to 'example.key'
+-----
+You’ll provide these answers similar to the ones below. Replace details with your own that represent the certificate you’re generating.
+
+Country Name (2 letter code) [AU]:US
+State or Province Name (full name) [Some-State]:New York
+Locality Name (eg, city) []:New York
+Organization Name (eg, company) [Internet Widgits Pty Ltd]:EXAMPLE, Inc.
+Organizational Unit Name (eg, section) []:Publishing
+Common Name (e.g. server FQDN or YOUR name) []:example.com
+Email Address []:admin@example.com
+
+
+After that, two files (example.crt and example.key) will be created in the directory you ran the command. Use these file in your Nginx or Apache setup to enable HTTPS connections.
+
+The certificate and private key will be created at the specified location. Use the ls command to verify that the files were created:
+
+ $ ls
+
+Output
+example.crt example.key
+
+![alt text](../00_includes/Sec/Sec6/sec-06%20creating%20certificate%20and%20key%20part2.PNG)
+
+
+
+* ## Analyze some certification paths of known websites (ex. techgrounds.nl / google.com / ing.nl).
+
+When you open a browser and type in  the name of the site u like to visit u will see a "lock"button left of the url. When u click on the lock, than connection is secured, than certificate is valid and as last click on th etab Certification Path, u will see for Google has been signed by GlobalSign and Techgrounds has been signed by DigiCert Baltimore, and ING has been signed by Entrust.net.
+
+![alt text](../00_includes/Sec/Sec6/sec-06%20certpath%20Techgrounds.PNG)
+
+![alt text](../00_includes/Sec/Sec6/sec-06%20certpath%20Google.PNG)
+
+![alt text](../00_includes/Sec/Sec6/sec-06%20certpath%20ING.PNG)
 
 
 
 
-* Analyze some certification paths of known websites (ex. techgrounds.nl / google.com / ing.nl).
-* Find the list of trusted certificate roots on your system (bonus points if you also find it in your VM).
 
+* ## Find the list of trusted certificate roots on your system (bonus points if you also find it in your VM).
+*  Windows and Linux
+
+Managing Trusted Root Certificates in Windows 10 and 11
+How to see the list of trusted root certificates on a Windows computer?
+
+To open the root certificate store of a computer running Windows 11/10/8.1/7 or Windows Server 2022/2019/2016, run the mmc.exe console;
+Select File -> Add/Remove Snap-in, select Certificates (certmgr) in the list of snap-ins -> Add;
+Select that you want to manage certificates of local Computer account;
+Next -> OK -> OK;
+Expand the Certificates node -> Trusted Root Certification Authorities Store. This section contains the list of trusted root certificates on your computer.
+
+![alt text](../00_includes/Sec/Sec6/sec-06%20list%20of%20trusted%20cert%20windows.PNG)
+
+![alt text](../00_includes/Sec/Sec6/sec-06%20list%20of%20trusted%20cert%20windows%20part2.PNG)
+
+
+
+Most distros put their certificates soft-link in system-wide location at /etc/ssl/certs. For system-wide use, OpenSSL should provide you /etc/ssl/certs and /etc/ssl/private.
+
+gebruik: ls dus ls /etc/ssl/certs
+
+![alt text](../00_includes/Sec/Sec6/sec-06%20list%20of%20trusted%20cert%20linux%20VM.PNG)
 
 
 ***
@@ -115,6 +200,17 @@ https://smallstep.com/blog/everything-pki/
 
 https://www.encryptionconsulting.com/certificate-authority-and-hierarchy/
 
+https://websiteforstudents.com/how-to-create-self-signed-certificates-on-ubuntu-linux/
+
+https://linuxize.com/post/creating-a-self-signed-ssl-certificate/
+
+https://devopscube.com/create-self-signed-certificates-openssl/
+
+http://woshub.com/updating-trusted-root-certificates-in-windows-10/#h2_1
+
+https://unix.stackexchange.com/questions/97244/list-all-available-ssl-ca-certificates
+
+https://serverfault.com/questions/62496/ssl-certificate-location-on-unix-linux
 
 ***
 ### Overcome challenges
