@@ -218,7 +218,7 @@ https://serverfault.com/questions/62496/ssl-certificate-location-on-unix-linux
 ***
 ### Overcome challenges
 
-
+Needed to learn about PKI Infrastructure and how to create a certificate  and key by yourself.
 
 
 
