@@ -92,9 +92,13 @@ When there are multiple CAs in a PKI, the CAs are structured in a hierarchy or c
 
 
 ***
-### Exercise
+### Exercise and Results
 
 * Create a self-signed certificate on your VM.
+
+
+
+
 * Analyze some certification paths of known websites (ex. techgrounds.nl / google.com / ing.nl).
 * Find the list of trusted certificate roots on your system (bonus points if you also find it in your VM).
 
@@ -120,4 +124,4 @@ https://www.encryptionconsulting.com/certificate-authority-and-hierarchy/
 
 
 
-### Results
+### 
