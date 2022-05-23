@@ -1,12 +1,33 @@
+
+
 ## Summary
 
-## Key terminology
 
-## Exercise
 
+
+
+***
+### Key terminology
+
+
+
+
+***
+### Exercise
+
+
+
+***
 ### Sources
 
 
+
+***
 ### Overcome challenges
 
+
+
+
+
+***
 ### Results
